@@ -61,3 +61,6 @@
 [submodule "plugins/cswatchin-extension"]
 	path = plugins/cswatchin-extension
 	url = https://github.com/TOR968/cswatchin-extension
+[submodule "ruststats-extension"]
+	path = ruststats-extension
+	url = https://github.com/TOR968/ruststats-extension
