@@ -60,10 +60,10 @@ Python is no longer officially supported by Millennium and will be removed entir
 | achievement-groups | cswatch-plugin |
 | adamraichu.auto-accept-custom-launch-args | extendium |
 | aerothemesteam | fullscreen-notifications-fix |
-| csstats-extension |  |
-| dotastats | non-steam-playtimes |
-| dwmx | steam-browser-history |
-| gratitude | steamdb |
+| csstats-extension | non-steam-playtimes |
+| dotastats | steam-browser-history |
+| dwmx | steamdb |
+| gratitude |  |
 | hltb-millennium-plugin |  |
 | leetify-extension |  |
 | size-on-disk |  |
