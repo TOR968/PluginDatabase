@@ -1,6 +1,22 @@
 # Millennium Plugin Database
 
-This repository contains community plugins for [Millennium](https://steambrew.app/), a Steam client modding platform. Each subdirectory under `plugins/` is an independent plugin.
+This repository contains community plugins for [Millennium](https://steambrew.app/), a Steam client modding platform. Each subdirectory under `plugins/` is an independent plugin. Plugins are added as git submodules.
+
+## Cloning Plugin Source for Review
+
+Plugins in this repo are git submodules pointing to external repositories. The submodule files may not be checked out in CI. To review plugin code:
+
+1. Look at the PR diff to find the submodule entry being added or updated (check `.gitmodules` and the submodule path under `plugins/`).
+2. Use `git` or `gh` to determine the plugin's source repository URL and commit SHA from the PR diff.
+3. Clone the plugin repository yourself and check out the correct commit:
+   ```bash
+   git clone <repo-url> /tmp/plugin-review
+   cd /tmp/plugin-review
+   git checkout <commit-sha>
+   ```
+4. Review the plugin source code from there.
+
+Do NOT skip the review because submodule files aren't available locally. Always clone and inspect the actual plugin code.
 
 ## PR Review Instructions
 
