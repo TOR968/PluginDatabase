@@ -50,13 +50,13 @@ The following table describes the remaining deprecated Python plugins that need 
 Python is no longer officially supported by Millennium and will be removed entirely in a future update.
 
 **Total**: 25
- * **Lua**: 24
- * **Python**: 1
+ * **Lua**: 25
+ * **Python**: 0
 
 
 | Lua | Python |
 |-----|--------|
-| RSS-feed-in-whats-new | extendium |
+| RSS-feed-in-whats-new |  |
 | achievement-groups |  |
 | adamraichu.auto-accept-custom-launch-args |  |
 | aerothemesteam |  |
@@ -64,6 +64,7 @@ Python is no longer officially supported by Millennium and will be removed entir
 | cswatch-plugin |  |
 | dotastats |  |
 | dwmx |  |
+| extendium |  |
 | fullscreen-notifications-fix |  |
 | gratitude |  |
 | hltb-millennium-plugin |  |
