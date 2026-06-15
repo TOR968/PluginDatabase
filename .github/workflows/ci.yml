@@ -74,7 +74,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: "24"
+          node-version: "20"
 
       - name: Set up SSH
         uses: webfactory/ssh-agent@v0.9.0
@@ -91,7 +91,7 @@ jobs:
           path: scripts/build/
 
       - name: Install pnpm
-        run: npm install -g pnpm@9
+        run: npm install -g pnpm
 
       - name: Install Dependencies
         run: |
