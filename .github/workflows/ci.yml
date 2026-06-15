@@ -91,7 +91,7 @@ jobs:
           path: scripts/build/
 
       - name: Install pnpm
-        run: npm install -g pnpm
+        run: npm install -g pnpm@9
 
       - name: Install Dependencies
         run: |
